@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html class="!scroll-smooth" lang="en">
+  <head>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axit</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="bg-[#000000] h-[70px] w-full fixed top-0 left-0 r-0 z-10">
+      <div
+        class="container mx-auto flex items-center justify-between h-full px-5"
+      >
+        <div class="flex text-2xl hover:cursor-pointer hover:opacity-70">
+          <a href="#home">
+            <span class="uppercase text-white font-bold">ax</span>
+            <span class="uppercase text-[#ff9b51]">it</span>
+          </a>
+        </div>
+        <ul class="hidden md:flex space-x-10 h-full items-center">
+          <li class="capitalize text-white">
+            <a class="hover:text-orange-500" href="#features">features</a>
+          </li>
+          <li class="capitalize text-white">
+            <a class="hover:text-orange-500" href="#about">about</a>
+          </li>
+          <li class="capitalize text-white">
+            <a class="hover:text-orange-500" href="#home">pricing</a>
+          </li>
+          <li class="capitalize text-white">
+            <a class="hover:text-orange-500" href="#home">reviews</a>
+          </li>
+          <li class="capitalize text-white">
+            <a class="hover:text-orange-500" href="#contact">contact</a>
+          </li>
+        </ul>
+
+        <!-- Menu bar -->
+        <div id="menu-bar" class="md:hidden cursor-pointer z-10">
+          <i class="fa-solid fa-bars text-white text-2xl"></i>
+        </div>
+
+        <!-- Mobile menu -->
+        <ul
+          id="mobile-menu"
+          class="absolute hidden top-[70px] right-0 bg-black text-white w-2/3 py-4 space-y-5 text-center"
+        >
+          <li class="capitalize text-white">
+            <a class="hover:text-orange-500" href="#">features</a>
+          </li>
+          <li class="capitalize text-white">
+            <a class="hover:text-orange-500" href="#">about</a>
+          </li>
+          <li class="capitalize text-white">
+            <a class="hover:text-orange-500" href="#">pricing</a>
+          </li>
+          <li class="capitalize text-white">
+            <a class="hover:text-orange-500" href="#">reviews</a>
+          </li>
+          <li class="capitalize text-white">
+            <a class="hover:text-orange-500" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <!-- Secction 1 - banner -->
+    <section id="home" class="mt-[70px] w-full h-full">
+      <div
+        class="h-[800px] md:h-[620px] w-full bg-cover relative overflow-hidden"
+        style="
+          background-image: linear-gradient(
+              0,
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url(./img/header-bg.jpg);
+        "
+      >
+        <div class="container mx-auto px-5">
+          <div
+            class="absolute top-0 pe-10 flex flex-col md:flex-row justify-between container mx-auto py-0 md:py-10"
+          >
+            <div
+              class="pt-5 gap-y-4 md:w-1/2 flex flex-col items-center justify-center md:items-start md:text-start lg:gap-y-11 md:gap-y-8"
+            >
+              <div class="text-[58px] flex leading-[58px]">
+                <span class="text-white font-bold">AX</span>
+                <span class="text-[#ff9b51]">IT</span>
+              </div>
+              <h1 class="text-xl md:text-2xl lg:text-4xl text-white uppercase">
+                Modern Axure template for beautiful prototypes
+              </h1>
+              <p class="w-[65px] h-[2px] bg-white"></p>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                officia veritatis itaque repellat dolorem placeat vero a. Quod,
+                atque. Facere obcaecati quas sit dolor esse est! Alias eos
+                itaque exercitationem?
+              </p>
+              <div>
+                <button
+                  class="py-2 px-3 outline outline-white text-white hover:outline-[#ff9b51] hover:text-[#ff9b51]"
+                >
+                  Download
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-center pt-8 md:w-1/2 md:justify-end"
+            >
+              <form action="" class="flex flex-col bg-white rounded-md">
+                <label for="" class="bg-[#f5f5f5] font-bold text-xl px-14 py-3">
+                  Try Your <span class="text-[#ff9b51]">Free</span> Trial Today
+                </label>
+                <div class="flex flex-col px-10 my-9 space-y-10">
+                  <input
+                    class="border-b focus:outline-[#ff9b51] border-gray-300 px-6 py-2"
+                    type="text"
+                    placeholder="Name"
+                  />
+                  <input
+                    class="border-b focus:outline-[#ff9b51] border-gray-300 px-6 py-2"
+                    type="email"
+                    placeholder="Email"
+                  />
+                  <input
+                    class="border-b focus:outline-[#ff9b51] border-gray-300 px-6 py-2"
+                    type="password"
+                    placeholder="Password"
+                  />
+                </div>
+                <button
+                  class="text-white bg-orange-400 py-3 font-bold hover:opacity-80"
+                >
+                  Get Started
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Secction 1 - end -->
+
+    <!-- Secction 2 -->
+    <section id="features" class="bg-[#f5f5f5]">
+      <div class="container mx-auto px-5">
+        <div class="flex py-10 flex-col space-y-7 lg:flex-row lg:py-24">
+          <div
+            class="w-full items-center justify-center gap-1 md:gap-y-0 lg:w-1/6 flex lg:flex-col"
+          >
+            <div
+              class="hover:cursor-pointer hover:opacity-80 rounded-s-md lg:rounded-t-md bg-[#ff8b38] w-[110px] h-[110px] border-b text-center leading-[96px] uppercase"
+            >
+              tap 1
+            </div>
+            <div
+              class="hover:cursor-pointer hover:opacity-80 uppercase bg-[#333333] w-[110px] h-[110px] text-white border-b text-center leading-[96px]"
+            >
+              tap 2
+            </div>
+            <div
+              class="hover:cursor-pointer hover:opacity-80 uppercase bg-[#333333] w-[110px] h-[110px] text-white text-center leading-[96px] rounded-e-md lg:rounded-b-md"
+            >
+              tap 3
+            </div>
+          </div>
+          <div
+            class="w-full lg:w-5/6 flex flex-col md:flex-row md:justify-between md:items-center"
+          >
+            <div
+              class="md:w-1/2 flex flex-col items-center md:items-start justify-center space-y-8 md:space-y-12"
+            >
+              <h1 class="text-lg font-bold">
+                Tabs with soft transitioning effect.
+              </h1>
+              <div class="space-y-6">
+                <p class="text-center md:text-start">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                  parturient montes.
+                </p>
+                <p class="text-center md:text-start">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet.
+                </p>
+              </div>
+
+              <div class="pb-5">
+                <button
+                  class="bg-[#ff8b38] py-2 px-3 outline outline-white text-white hover:opacity-80"
+                >
+                  Download
+                </button>
+              </div>
+            </div>
+            <div class="md:w-1/2 md:ps-16">
+              <img src="./img/tab-img-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Secction 2 - end -->
+
+    <!-- Secction 3 - start-->
+    <section class="bg-white">
+      <div class="container mx-auto px-5">
+        <div
+          class="flex flex-col-reverse md:flex-row md:py-8 py-4 lg:pt-[85px] lg:pb-[100px] md:gap-x-5"
+        >
+          <div class="w-full md:w-1/2 flex items-center justify-center py-5">
+            <img src="./img/img-1.jpg" alt="" />
+          </div>
+          <div class="w-full md:w-1/2 flex flex-col space-y-[30px] text-sm">
+            <h1 class="font-bold text-lg">Sub list selection</h1>
+            <p class="w-[65px] h-[2px] bg-[#ff8b38]"></p>
+            <p class="text-[#86878b]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+              accumsan et viverra justo commodo.
+            </p>
+            <div class="flex flex-col gap-y-[30px]">
+              <div class="flex space-x-6 items-center justify-center">
+                <img class="w-10 h-10" src="./img/up.png" alt="" />
+                <div class="flex flex-col">
+                  <h1 class="text-base font-bold">Title</h1>
+                  <p class="text-[#86878b]">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                </div>
+              </div>
+              <div class="flex space-x-6 items-center justify-center">
+                <img class="w-10 h-10" src="./img/down.png" alt="" />
+                <div class="flex flex-col">
+                  <h1 class="text-base font-bold">Title</h1>
+                  <p class="text-[#86878b]">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                    amet lacus accumsan et viverra justo commodo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Secction 3 - end -->
+
+    <!-- Secction 4 - start -->
+    <section class="w-full bg-[#f5f5f5] px-5">
+      <div class="container mx-auto md:pt-[85px] md:py-[100px] py-5">
+        <div class="flex flex-col gap-10 md:flex-row">
+          <div class="md:w-1/2 flex flex-col gap-y-[32px] text-justify">
+            <h1 class="font-bold text-lg">Standard picture section</h1>
+            <p class="w-[65px] h-[2px] bg-[#ff8b38]"></p>
+            <p class="text-[#86878b]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+              accumsan et viverra justo commodo. Proin sodales pulvinar tempor.
+              Cum sociis natoque penatibus et magnis dis parturient montes.
+              <span class="text-[#86878b] block pt-4"
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet.</span
+              >
+            </p>
+          </div>
+          <div class="md:w-1/2">
+            <img class="w-full" src="./img/img-2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Secction 4 - end -->
+
+    <!-- Secction 4 - start -->
+    <section id="about" class="w-full bg-white">
+      <div class="container mx-auto lg:pt-[65px] lg:py-[60px] px-5">
+        <div
+          class="flex flex-col items-center justify-center gap-y-[32px] pt-10"
+        >
+          <h1 class="text-2xl md:text-4xl font-light">WHY THIS IS AWESOME</h1>
+          <p class="w-[65px] h-[2px] bg-[#ff8b38]"></p>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <div
+          class="flex flex-col md:flex-row items-center justify-between py-10 md:gap-x-7 gap-y-5"
+        >
+          <div
+            class="flex flex-col justify-center items-center gap-y-5 text-center md:text-start"
+          >
+            <img src="./img/craft.png" alt="" />
+            <h1 class="font-bold text-lg">Well Crafted</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+              explicabo eaque nesciunt ducimus numquam, debitis. Asperiores
+              facere corporis inventore
+            </p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-y-5 text-center md:text-start"
+          >
+            <img src="./img/easy.png" alt="" />
+            <h1 class="font-bold text-lg">Easy to Customize</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+              explicabo eaque nesciunt ducimus numquam, debitis. Asperiores
+              facere corporis inventore
+            </p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-y-5 text-center md:text-start"
+          >
+            <img src="./img/throught.png" alt="" />
+            <h1 class="font-bold text-lg">Thoughtful Design</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+              explicabo eaque nesciunt ducimus numquam, debitis. Asperiores
+              facere corporis inventore
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 4 - end -->
+
+    <!-- Section 5 - start -->
+    <section class="w-full h-full">
+      <div
+        class="bg-cover h-[300px] relative"
+        style="
+          background-image: linear-gradient(
+              0,
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url(./img/bottom-bg.jpg);
+        "
+      >
+        <div
+          class="text-white container mx-auto absolute top-0 left-[50%] translate-x-[-50%] py-10 px-5"
+        >
+          <div
+            class="flex flex-col space-y-5 md:space-y-9 justify-center items-center"
+          >
+            <h1 class="text-3xl">STYLISH AXURE DESIGN</h1>
+            <p class="w-[65px] h-[2px] bg-white"></p>
+            <p class="text-[#86878b]">
+              Use the sections you need, remove the ones you don't. Create
+              gorgeous prototypes faster than ever!
+            </p>
+            <div>
+              <button
+                class="py-2 px-3 outline outline-white text-white hover:outline-[#ff9b51] hover:text-[#ff9b51]"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 5 - end -->
+
+    <!-- Section 6 - start -->
+    <section class="w-full" id="contact">
+      <div class="container mx-auto md:pt-24 md:pb-20 px-5 py-7">
+        <div class="flex flex-col w-full">
+          <div class="flex flex-col gap-y-7 items-center justify-center">
+            <h1 class="text-3xl">CONTACT US</h1>
+            <p class="w-[65px] h-[2px] bg-[#ff8b38]"></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <form
+            class="flex flex-col md:flex-row gap-y-5 md:gap-x-10 justify-between pt-7 w-full"
+            action=""
+          >
+            <div class="flex flex-col md:w-1/2 space-y-5 md:space-y-10">
+              <input
+                type="text"
+                placeholder="Name"
+                class="border-b outline-transparent focus:outline-[#ff9b51] border-gray-300 px-6 py-2"
+              />
+              <input
+                type="text"
+                placeholder="Email"
+                class="border-b outline-transparent focus:outline-[#ff9b51] border-gray-300 px-6 py-2"
+              />
+              <input
+                type="text"
+                placeholder="Subject"
+                class="border-b outline-transparent focus:outline-[#ff9b51] border-gray-300 px-6 py-2"
+              />
+            </div>
+
+            <textarea
+              placeholder="Message"
+              name=""
+              id=""
+              cols="30"
+              rows="7"
+              class="border-b outline-transparent focus:outline-[#ff9b51] border-gray-300 px-6 py-2 md:w-1/2"
+            ></textarea>
+          </form>
+          <div class="flex items-center justify-center mt-7">
+            <button
+              class="bg-[#ff8b38] py-2 px-3 outline outline-white text-white rounded hover:opacity-80"
+            >
+              Send Message
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 6 - end -->
+
+    <!-- Footer start -->
+    <footer class="w-full bg-black">
+      <div
+        class="container mx-auto flex flex-col justify-center items-center py-4 space-y-2"
+      >
+        <div class="flex gap-x-5 text-2xl text-[rgba(255,255,255,0.9)]">
+          <i
+            class="hover:cursor-pointer hover:text-[#ff8b38] hover:scale-125 duration-100 fa-brands fa-facebook-f"
+          ></i>
+          <i
+            class="hover:cursor-pointer hover:text-[#ff8b38] hover:scale-125 duration-100 fa-brands fa-twitter"
+          ></i>
+          <i
+            class="hover:cursor-pointer hover:text-[#ff8b38] hover:scale-125 duration-100 fa-brands fa-google-plus-g"
+          ></i>
+          <i
+            class="hover:cursor-pointer hover:text-[#ff8b38] hover:scale-125 duration-100 fa-brands fa-pinterest"
+          ></i>
+          <i
+            class="hover:cursor-pointer hover:text-[#ff8b38] hover:scale-125 duration-100 fa-brands fa-instagram"
+          ></i>
+          <i
+            class="hover:cursor-pointer hover:text-[#ff8b38] hover:scale-125 duration-100 fa-brands fa-stumbleupon"
+          ></i>
+          <i
+            class="hover:cursor-pointer hover:text-[#ff8b38] hover:scale-125 duration-100 fa-solid fa-rss"
+          ></i>
+        </div>
+        <p class="text-[#86878b]">©2021 Axure Themes</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
