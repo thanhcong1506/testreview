@@ -616,6 +616,11 @@ video {
   margin-top: 70px;
 }
 
+.me-0 {
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
 .block {
   display: block;
 }
@@ -1179,6 +1184,16 @@ video {
 .pe-10 {
   -webkit-padding-end: 2.5rem;
           padding-inline-end: 2.5rem;
+}
+
+.ps-11 {
+  -webkit-padding-start: 2.75rem;
+          padding-inline-start: 2.75rem;
+}
+
+.ps-20 {
+  -webkit-padding-start: 5rem;
+          padding-inline-start: 5rem;
 }
 
 .text-center {
